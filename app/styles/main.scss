@@ -1,0 +1,222 @@
+$icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
+// bower:scss
+@import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+// endbower
+@font-face {
+    font-family: "iconfont";
+    src: url('fonts/iconfont.eot');
+    /* IE9*/
+    src: url('fonts/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('fonts/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('fonts/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('fonts/iconfont.svg#iconfont') format('svg');
+    /* iOS 4.1- */
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-youku:before {
+    content: "\e630";
+}
+
+.icon-weibo:before {
+    content: "\e619";
+}
+
+.icon-tudou:before {
+    content: "\e6b1";
+}
+
+.icon-weixin:before {
+    content: "\e620";
+}
+
+// 
+// 
+// 
+#header {
+    .navbar {
+        background-color: #000;
+        .navbar-brand {
+            color: #ffffff;
+        }
+        margin-bottom: 0;
+    }
+}
+
+.cart-wrap {
+    text-align: right;
+    line-height: 55px;
+    font-size: 18pt;
+    background: url(../images/icon01.png) no-repeat right center;
+    background-size: 32px 32px;
+    padding-right: 35px;
+    color: #000000;
+}
+
+.product-pics {
+    .owl-carousel {
+        .item {
+            position: relative;
+            p {
+                position: absolute;
+                width: 100%;
+                left: 0;
+                bottom: 0;
+                line-height: 35px;
+                background-color: rgba(0, 0, 0, 0.75);
+                color: #fff;
+                margin-top: 0;
+                margin-bottom: 0;
+                text-align: center;
+            }
+        }
+    }
+}
+
+.extr {
+    background-color: #252525;
+    text-align: center;
+    .share {
+        .col-xs-3 {
+            .iconfont {
+                color: #7B7B7B;
+                font-size: 32pt;
+            }
+            p {
+                color: #B2B2B2;
+                margin-top: -7px;
+            }
+        }
+    }
+    .bottom-nav {
+        border-top: 1px solid #3E3E3D;
+        border-bottom: 1px solid #3E3E3D;
+        line-height: 35px;
+        color: #8E8E8E;
+        font-size: 14pt;
+        .col-xs-6:first-child {
+            border-right: 1px solid #3E3E3D;
+        }
+    }
+}
+
+.footer {
+    background-color: #000000;
+    .copyright {
+        text-align: center;
+        color: #ffffff;
+        line-height: 30px;
+    }
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    background-color: #C0BFC0;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: #000000;
+}
+
+.product-content,
+.buy-content {
+    padding: 10px 30px;
+    background-color: #E3E3E3;
+    border-top: 8px solid #5E5E5E;
+}
+
+.product-content {
+    p {
+        margin-bottom: 0;
+    }
+}
+
+.buy-content {
+    .table {
+        > tbody {
+            > tr {
+                th,
+                td {
+                    padding: 5px 0;
+                    font-weight: normal;
+                    vertical-align: middle;
+                    border: none;
+                }
+            }
+        }
+    }
+    .list-inline {
+        margin-bottom: 0;
+    }
+    .input-group-amount {
+        width: 50%;
+        margin-right: 5px;
+        &.input-group-sm > .input-group-btn > .btn {
+            height: 24px;
+            padding-top: 2px;
+            border-radius: 0px;
+        }
+        &.input-group-sm > .form-control {
+            height: 24px;
+        }
+    }
+    .unit {
+        white-space: nowrap;
+        margin-top: 3px;
+    }
+    .btn-chima {
+        width: 24px;
+        height: 24px;
+        background-color: #fff;
+        padding: 0;
+        line-height: 24px;
+        border-radius: 0px;
+    }
+    .btn-yanse {
+        width: 24px;
+        height: 24px;
+        padding: 0;
+        line-height: 24px;
+        border-radius: 0px;
+    }
+    .btn-jiage {
+        height: 24px;
+        padding: 0 10px;
+        line-height: 24px;
+        border-radius: 0px;
+        background-color: #fff;
+        text-decoration: line-through;
+    }
+    .btn-cuxiao {
+        height: 24px;
+        padding: 0 10px;
+        line-height: 24px;
+        border-radius: 0px;
+        background-color: #ffffff;
+        color: #F31E37;
+    }
+    .btn-cart {
+        height: 24px;
+        padding: 0 10px;
+        line-height: 24px;
+        border-radius: 0px;
+        background-color: #5E5E5E;
+        color: #ffffff;
+    }
+    .btn-buy {
+        height: 24px;
+        padding: 0 10px;
+        line-height: 24px;
+        border-radius: 0px;
+        background-color: #F31E37;
+        color: #ffffff;
+    }
+}

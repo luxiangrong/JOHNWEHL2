@@ -1,0 +1,24 @@
+{
+  "name": "johnwehl",
+  "private": true,
+  "dependencies": {
+    "bootstrap-sass": "~3.3.5",
+    "owl.carousel": "smashingboxes/OwlCarousel2#~2.0.0-beta.3"
+  },
+  "overrides": {
+    "bootstrap-sass": {
+      "main": [
+        "assets/stylesheets/_bootstrap.scss",
+        "assets/fonts/bootstrap/*",
+        "assets/javascripts/bootstrap.js"
+      ]
+    },
+    "owl.carousel": {
+      "main": [
+        "dist/owl.carousel.js",
+        "dist/assets/owl.carousel.css",
+        "dist/assets/owl.theme.default.css"
+      ]
+    }
+  }
+}
