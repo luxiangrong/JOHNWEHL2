@@ -157,7 +157,7 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
         margin-bottom: 0;
     }
     .input-group-amount {
-        width: 50%;
+        width: 120px;
         margin-right: 5px;
         &.input-group-sm > .input-group-btn > .btn {
             height: 24px;
@@ -179,6 +179,11 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
         padding: 0;
         line-height: 24px;
         border-radius: 0px;
+        @include opacity(0.75);
+        &.active {
+            background-color: #ddd;
+            @include opacity(1);
+        }
     }
     .btn-yanse {
         width: 24px;

@@ -87,30 +87,33 @@
                     <tr>
                         <th style="width: 3em;">尺码</th>
                         <td>
-                            <ul class="list-inline">
-                                <li>
-                                    <button class="btn btn-chima">46</button>
-                                </li>
-                                <li>
-                                    <button class="btn btn-chima">46</button>
-                                </li>
-                                <li>
-                                    <button class="btn btn-chima">46</button>
-                                </li>
-                                <li>
-                                    <button class="btn btn-chima">46</button>
-                                </li>
-                            </ul>
+                            <div data-toggle="buttons">
+                                <label class="btn btn-chima active">
+                                    <input type="radio" name="options" id="option1" autocomplete="off" checked>46
+                                </label>
+                                <label class="btn btn-chima">
+                                    <input type="radio" name="options" id="option2" autocomplete="off"> 48
+                                </label>
+                                <label class="btn btn-chima">
+                                    <input type="radio" name="options" id="option3" autocomplete="off"> 50
+                                </label>
+                            </div>
                         </td>
                     </tr>
                     <tr>
                         <th>颜色</th>
                         <td>
-                            <ul class="list-inline">
-                                <li>
-                                    <button class="btn btn-yanse" style="background-color: #204D81">&nbsp;&nbsp;</button>
-                                </li>
-                            </ul>
+                            <div data-toggle="buttons">
+                                <label class="btn btn-chima active" style="background-color: #204D81">
+                                    <input type="radio" name="options" id="option1" autocomplete="off" checked>&nbsp;&nbsp;
+                                </label>
+                                <label class="btn btn-chima" style="background-color: #2AED81">
+                                    <input type="radio" name="options" id="option2" autocomplete="off"> &nbsp;&nbsp;
+                                </label>
+                                <label class="btn btn-chima" style="background-color: #21D231">
+                                    <input type="radio" name="options" id="option3" autocomplete="off"> &nbsp;&nbsp;
+                                </label>
+                            </div>
                         </td>
                     </tr>
                     <tr>
@@ -118,12 +121,12 @@
                         <td>
                             <div class="input-group input-group-sm input-group-amount pull-left">
                                 <span class="input-group-btn">
-        							<button class="btn btn-default" type="button">+</button>
-  								</span>
+                                    <button class="btn btn-default" type="button">+</button>
+                                </span>
                                 <input type="text" class="form-control" />
                                 <span class="input-group-btn">
-		        					<button class="btn btn-default" type="button">-</button>
-		      					</span>
+                                    <button class="btn btn-default" type="button">-</button>
+                                </span>
                             </div>
                             <div class="unit">件（库存12件）</div>
                         </td>
